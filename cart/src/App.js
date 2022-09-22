@@ -3,6 +3,10 @@ import './App.css';
 
 
 
+const Button=()=>{
+  <input type ="button">button</input>
+}
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +23,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button></Button>
       </header>
     </div>
   );
