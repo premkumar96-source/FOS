@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 
-function addition(){
-console.log("test")
+
+const Button=()=>{
+  <input type ="button">button</input>
 }
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button></Button>
       </header>
     </div>
   );
