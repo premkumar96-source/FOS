@@ -7,6 +7,7 @@ const Button=()=>{
   <input type ="button">button</input>
 }
 
+console.log("test")
 function App() {
   return (
     <div className="App">
